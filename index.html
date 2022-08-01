@@ -1,13 +1,31 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel=" shortcut icon"  href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB6AWkjBxK5skJson8FVwXRbAL3qmsxgT-qCwc1oxE2qBPW1NVg2l_085vkxzWBaVbwnw&usqp=CAU" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>carotobarj's portfolio</title>
+    <style>
+    .modoOscuro {
+      margin-bottom: 5%;
+    }
+  </style>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div class="root" id="root"></div>
+  <div id="modoOscuro">
+    <div onClick={cambiarModo} class="switch-modo-oscuro" id="switch-modo-oscuro">
+      <button class="boton-modo-claro boton-switch"><img src="https://img.icons8.com/nolan/64/sun.png"/></button>
+      <button class="boton-modo-oscuro boton-switch"><img src="https://img.icons8.com/external-icongeek26-outline-colour-icongeek26/64/000000/external-moon-magic-and-fairy-tale-icongeek26-outline-colour-icongeek26.png"/></button>
+    </div>
+  </div>
+  <script>
+    function cambiarModo() {
+      document.body.classList.toggle("modo-oscuro")
+    }
+    document.getElementById("switch-modo-oscuro").onclick = cambiarModo
+  </script>
+  <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
