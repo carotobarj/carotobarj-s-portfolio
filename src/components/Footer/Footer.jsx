@@ -1,9 +1,8 @@
 import "./footer.css";
 import { BsMouse } from "react-icons/bs";
-import { BsWhatsapp } from "react-icons/bs";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { TiSocialGithub } from "react-icons/ti";
-import { TbBrandGmail } from "react-icons/tb";
+
 
 
 function Footer() {
@@ -23,12 +22,6 @@ function Footer() {
         </a>
         <a href="https://github.com/carotobarj" target="_blank">
           <TiSocialGithub className="social" />
-        </a>
-        <a href="https://wa.link/a9e162" target="_blank">
-          <BsWhatsapp className="social" />
-        </a>
-        <a href="mailto:carotobarj@gmail.com" target="_blank">
-          <TbBrandGmail className="social" />
         </a>
       </div>
     </div>
