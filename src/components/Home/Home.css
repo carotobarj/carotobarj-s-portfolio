@@ -70,7 +70,7 @@
 
 .home-container .logo .hover-show.active .circle:nth-child(2) {
   position: absolute;
-  transform: translateX(150%) translateY(-150%);
+  transform: translateX(182%) translateY(-118%);
   background: url(../../assets/images/html.png);
   background-size: cover;
   background-position: center;
@@ -78,7 +78,7 @@
 
 .home-container .logo .hover-show.active .circle:nth-child(3) {
   position: absolute;
-  transform: translateX(210%);
+  transform: translateX(197%) translateY(74%);
   background: url(../../assets/images/js.jpg);
   background-size: cover;
   background-position: center;
@@ -86,7 +86,7 @@
 
 .home-container .logo .hover-show.active .circle:nth-child(4) {
   position: absolute;
-  transform: translateX(150%) translateY(150%);
+  transform: translateX(57%) translateY(182%);
   background: url(../../assets/images/react.png);
   background-size: cover;
   background-position: center;
@@ -94,7 +94,7 @@
 
 .home-container .logo .hover-show.active .circle:nth-child(5) {
   position: absolute;
-  transform: translateY(210%);
+  transform: translateX(-199%) translateY(19%);
   background: url(../../assets/images/uxui.png);
   background-size: cover;
   background-position: center;
@@ -102,18 +102,19 @@
 
 .home-container .logo .hover-show.active .circle:nth-child(6) {
   position: absolute;
-  transform: translateX(-250%) translateY(250%);
+  transform: translateX(-163%) translateY(-147%);
   background: url(../../assets/images/redux.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .home-container .logo .hover-show.active .circle:nth-child(7) {
-  background: url(../../assets/images/redux.png);
+  background: url(../../assets/images/scrum.jpg);
   position: absolute;
-  transform: translateX(-210%);
+  transform: translateX(-139%) translateY(172%);
   background-size: cover;
   background-position: center;
+  
 }
 
 .home-container img {
@@ -147,9 +148,9 @@
 .home-container h2 span {
   font-size: 25px;
   opacity: 0.8;
-  padding-bottom: 5px;
+  padding: 5px;
   border-bottom: 2px solid var(--color-pri);
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: Poppins;
 }
 
 .home-container h2 p {
@@ -157,7 +158,8 @@
   opacity: 1;
   font-weight: 100;
   margin-top: 1px;
-  font-family: "Open Sans", sans-serif;
+  font-family: Poppins;
+  margin: 5px;
 }
 
 .scroll-down {
@@ -172,7 +174,7 @@
 }
 
 .scroll-down hr {
-  background-color: blue;
+  background-color: rgb(255, 255, 255);
   width: 20px;
 }
 
@@ -180,6 +182,8 @@
   font-size: 18px;
   text-transform: capitalize;
   font-weight: 100;
+  font-family: Poppins;
+  color: aliceblue;
 }
 
 .scroll-down .scroll {

@@ -1,35 +1,108 @@
 .skill-text {
-    font-size: 20px;
-    top: 10px;
-    color:blueviolet
-  }
+  font-size: 20px;
+  top: 10px;
+  color:blueviolet
+}
+
+.skills-container {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+ margin-top: 15px;
+ overflow-x: scroll;
+ }
+
+.skills-container .skill {
+  position: relative;
+  border-radius: 20px;
+  margin: 0 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   
+}
+
+ .skills-container .skill h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  border-radius: 50px;
+}
+
+.skills-container .skill .content.html {
+  background-position: center;
+  border-radius: 50%;
+  background-size: 66px;
+  cursor:pointer;
+}
+.skills-container .skill .content.css {
+ background-position: center;
+  border-radius: 50%;
+  background-size: 66px;
+  cursor:pointer;
+  
+}
+.skills-container .skill .content.javascript {
+  background-position: center;
+  border-radius: 50%;
+  background-size: 66px;
+  cursor:pointer;
+}
+.skills-container .skill .content.uxui {
+  background-position: center;
+  border-radius: 50%;
+  background-size: 66px;
+  cursor:pointer;
+}
+.skills-container .skill .content.react {
+  background-position: center;
+  border-radius: 50%;
+  background-size: 66px;
+  cursor:pointer;
+}
+.skills-container .skill .content.redux {
+  background-position: center;
+  border-radius: 50%;
+  background-size: 66px;
+  cursor:pointer;
+}
+.skills-container .skill .content.scrum {
+  background-position: center;
+  border-radius: 50%;
+  background-size: 66px;
+  cursor:pointer;
+}
+
+@media (max-width: 820px) {
+  .quali-text {
+    font-size: 30px;
+    top: 10px;
+    text-align: center;
+  }
+
   .skills-container {
     position: absolute;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 80%;
-    width: 90%;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    margin-top: 15px;
-    user-select: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+ margin-top: 15px;
+ overflow-x: scroll;
   }
-  
+
   .skills-container .skill {
     position: relative;
-    height: 550px;
-    min-width: 40%;
-    background-color: rgb(9, 6, 31);
-    border-radius: 20px;
-    margin: 0 20px 0 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+  border-radius: 20px;
+  margin: 0 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   }
-  
+
   .skills-container .skill .content {
     height: 85%;
     width: 90%;
@@ -38,294 +111,189 @@
     background-size: contain;
     background-position: center;
   }
-  
+
   .skills-container .skill h1 {
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
     margin-top: 20px;
+    font-weight: 200;
   }
-  
-  .skills-container .skill .content.html {
-    background: rgba(255, 255, 255, 0.103) url(../../assets/images/html.png);
+}
+
+@media (max-width: 500px) {
+  .quali-text {
+    font-size: 20px;
+    top: 10px;
+    text-align: center;
+  }
+
+  .skills-container {
+    position: relative;
+  border-radius: 20px;
+  margin: 0 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  }
+
+  .skills-container .skill {
+    position: relative;
+  border-radius: 20px;
+  margin: 0 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  }
+
+  .skills-container .skill .content {
+    height: 85%;
+    width: 90%;
+    border-radius: 15px;
+    margin-top: 20px;
+    background-size: contain;
     background-position: center;
-    background-size: 66px;
   }
-  .skills-container .skill .content.css {
-    background: rgba(255, 255, 255, 0.103) url(../../assets/images/css.png);
+
+  .skills-container .skill h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: 200;
+  }
+}
+
+@media (max-width: 420px) {
+  .quali-text {
+    font-size: 20px;
+    top: 10px;
+    text-align: center;
+  }
+
+  .skills-container {
+    position: relative;
+  border-radius: 20px;
+  margin: 0 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  }
+
+  .skills-container .skill {
+    position: relative;
+  border-radius: 20px;
+  margin: 0 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  }
+
+  .skills-container .skill .content {
+    height: 85%;
+    width: 90%;
+    border-radius: 15px;
+    margin-top: 20px;
+    background-size: contain;
     background-position: center;
-    background-size: cover;
-    background-size: 66px;
   }
-  .skills-container .skill .content.javascript {
-    background: rgba(255, 255, 255, 0.103) url(../../assets/images/js.jpg);
+
+  .skills-container .skill h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: 200;
+  }
+}
+
+@media (max-width: 400px) {
+  .quali-text {
+    font-size: 20px;
+    top: 10px;
+    position: absolute;
+    left: 10px;
+  }
+
+  .skills-container {
+    position: relative;
+  border-radius: 20px;
+  margin: 0 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  }
+
+  .skills-container .skill {
+    position: relative;
+    border-radius: 20px;
+    margin: 0 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .skills-container .skill .content {
+    height: 85%;
+    width: 90%;
+    border-radius: 15px;
+    margin-top: 20px;
+    background-size: contain;
     background-position: center;
-    background-size: cover;
-    background-size: 90px;
   }
-  .skills-container .skill .content.uxui {
-    background: rgba(255, 255, 255, 0.103) url(../../assets/images/uxui.png);
+
+  .skills-container .skill h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: 200;
+  }
+}
+
+@media (max-width: 375px) {
+  .quali-text {
+    font-size: 20px;
+    top: 10px;
+    position: absolute;
+    left: 10px;
+  }
+
+  .skills-container {
+    position: relative;
+  border-radius: 20px;
+  margin: 0 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  }
+
+  .skills-container .skill {
+    position: relative;
+    border-radius: 20px;
+    margin: 0 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .skills-container .skill .content {
+    height: 85%;
+    width: 90%;
+    border-radius: 15px;
+    margin-top: 20px;
+    background-size: contain;
     background-position: center;
-    background-size: cover;
-    background-size: 66px;
   }
-  .skills-container .skill .content.react {
-    background: rgba(255, 255, 255, 0.103) url(../../assets/images/react.png);
-    background-position: center;
-    background-size: cover;
-    background-size: 66px;
+
+  .skills-container .skill h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: 200;
   }
-  .skills-container .skill .content.redux {
-    background: rgba(255, 255, 255, 0.103) url(../../assets/images/redux.png);
-    background-position: center;
-    background-size: cover;
-    background-size: 66px;
-  }
-  
-  
-  @media (max-width: 820px) {
-    .quali-text {
-      font-size: 30px;
-      top: 10px;
-      text-align: center;
-    }
-  
-    .skills-container {
-      position: absolute;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      height: 80%;
-      width: 98%;
-      overflow-x: scroll;
-      overflow-y: hidden;
-      margin-top: 15px;
-    }
-  
-    .skills-container .skill {
-      position: relative;
-      height: 80%;
-      min-width: 95%;
-      background-color: rgb(9, 6, 31);
-      border-radius: 20px;
-      margin: 0 30px 0 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: center;
-    }
-  
-    .skills-container .skill .content {
-      height: 85%;
-      width: 90%;
-      border-radius: 15px;
-      margin-top: 20px;
-      background-size: contain;
-      background-position: center;
-    }
-  
-    .skills-container .skill h1 {
-      font-size: 18px;
-      text-transform: uppercase;
-      margin-top: 20px;
-      font-weight: 200;
-    }
-  }
-  
-  @media (max-width: 500px) {
-    .quali-text {
-      font-size: 20px;
-      top: 10px;
-      text-align: center;
-    }
-  
-    .skills-container {
-      position: absolute;
-      display: flex;
-      justify-content: flex-start ;
-      align-items: center;
-      height: 80%;
-      width: 85%;
-      overflow-x: scroll;
-      overflow-y: hidden;
-      margin-top: 15px;
-    }
-  
-    .skills-container .skill {
-      position: relative;
-      height: 80%;
-      min-width: 95%;
-      background-color: rgb(9, 6, 31);
-      border-radius: 20px;
-      margin: 0 40px 0 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: center;
-    }
-  
-    .skills-container .skill .content {
-      height: 85%;
-      width: 90%;
-      border-radius: 15px;
-      margin-top: 20px;
-      background-size: contain;
-      background-position: center;
-    }
-  
-    .skills-container .skill h1 {
-      font-size: 18px;
-      text-transform: uppercase;
-      margin-top: 20px;
-      font-weight: 200;
-    }
-  }
-  
-  @media (max-width: 420px) {
-    .quali-text {
-      font-size: 20px;
-      top: 10px;
-      text-align: center;
-    }
-  
-    .skills-container {
-      position: absolute;
-      display: flex;
-      justify-content: flex-start;
-      align-items: flex-start;
-      height: 80%;
-      width: 88%;
-      overflow-x: scroll;
-      overflow-y: hidden;
-      margin-top: 40px;
-    }
-  
-    .skills-container .skill {
-      position: relative;
-      height: 80%;
-      min-width: 98%;
-      background-color: rgb(9, 6, 31);
-      border-radius: 20px;
-      margin: 0 40px 0 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: center;
-    }
-  
-    .skills-container .skill .content {
-      height: 85%;
-      width: 90%;
-      border-radius: 15px;
-      margin-top: 20px;
-      background-size: contain;
-      background-position: center;
-    }
-  
-    .skills-container .skill h1 {
-      font-size: 18px;
-      text-transform: uppercase;
-      margin-top: 20px;
-      font-weight: 200;
-    }
-  }
-  
-  @media (max-width: 400px) {
-    .quali-text {
-      font-size: 20px;
-      top: 10px;
-      position: absolute;
-      left: 10px;
-    }
-  
-    .skills-container {
-      position: absolute;
-      left: 10px;
-      display: flex;
-      justify-content: flex-start;
-      align-items: flex-start;
-      height: 80%;
-      width: 100%;
-      overflow-x: scroll;
-      overflow-y: hidden;
-    }
-  
-    .skills-container .skill {
-      position: relative;
-      height: 80%;
-      min-width: 90%;
-      background-color: rgb(9, 6, 31);
-      border-radius: 20px;
-      margin: 0 20px 0 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: center;
-    }
-  
-    .skills-container .skill .content {
-      height: 85%;
-      width: 90%;
-      border-radius: 15px;
-      margin-top: 20px;
-      background-size: contain;
-      background-position: center;
-    }
-  
-    .skills-container .skill h1 {
-      font-size: 18px;
-      text-transform: uppercase;
-      margin-top: 20px;
-      font-weight: 200;
-    }
-  }
-  
-  @media (max-width: 375px) {
-    .quali-text {
-      font-size: 20px;
-      top: 10px;
-      position: absolute;
-      left: 10px;
-    }
-  
-    .skills-container {
-      position: absolute;
-      left: 10px;
-      display: flex;
-      justify-content: flex-start;
-      align-items: flex-start;
-      height: 80%;
-      width: 100%;
-      overflow-x: scroll;
-      overflow-y: hidden;
-    }
-  
-    .skills-container .skill {
-      position: relative;
-      height: 95%;
-      min-width: 90%;
-      background-color: rgb(9, 6, 31);
-      border-radius: 20px;
-      margin: 0 20px 0 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: center;
-    }
-  
-    .skills-container .skill .content {
-      height: 85%;
-      width: 90%;
-      border-radius: 15px;
-      margin-top: 20px;
-      background-size: contain;
-      background-position: center;
-    }
-  
-    .skills-container .skill h1 {
-      font-size: 18px;
-      text-transform: uppercase;
-      margin-top: 20px;
-      font-weight: 200;
-    }
-  }
-  
+}
