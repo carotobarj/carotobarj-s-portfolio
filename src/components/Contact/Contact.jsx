@@ -1,7 +1,5 @@
 import "./contact.css";
 
-import { AiOutlineWhatsApp } from "react-icons/ai";
-
 
 function Contact() {
   return (
@@ -14,7 +12,7 @@ function Contact() {
           className="contact whatsapp"
           target={"blank"}
         >
-          <AiOutlineWhatsApp className="icon" />
+          <img src="https://img.icons8.com/fluency/48/000000/whatsapp.png"/>
           <h2>
             Whatsapp
           </h2>

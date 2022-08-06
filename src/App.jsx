@@ -1,9 +1,9 @@
 import Header from "./components/Header/Header";
 import Home from "./components/home/home";
-import About from "./components/about/about";
+import SkillsDescription from "./components/Skills/SkillsDescription/SkillsDescription";
 import Contact from "./components/contact/contact";
 import Navbar from "./components/nav/nav";
-// import Members from "./components/members/members";
+import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
 
 function WebContent() {
@@ -14,8 +14,8 @@ function WebContent() {
       <Header />
       <Navbar />
       <Home />
-      <About />
-      {/* <Members /> */}
+      <SkillsDescription />
+      <Projects />
       <Contact />
       <Footer />
     </>

@@ -68,6 +68,8 @@ body::after {
   --color-pri-light: rgba(10, 5, 109, 0.565);
   --color-sec: rgb(172, 17, 233);
   --color-sec-light: rgba(109, 3, 151, 0.783);
+  --color-tri: rgb(1, 204, 230);
+  --color-tri-light: rgba(3, 100, 129, 0.783);
 
   --pc-width: 75%;
   --tab-width: 90%;
@@ -88,7 +90,7 @@ body::after {
 
 #switch-modo-oscuro{
   position: fixed;
- bottom: 10rem;
+ bottom: 40rem;
  right: 0.5rem;
 }
 

@@ -1,9 +1,11 @@
-import "./nav.css";
+import "./Nav.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
-import { TiGroupOutline } from "react-icons/ti";
 import { BiMessageRoundedDots } from "react-icons/bi";
 import { BsArrowDownCircle } from "react-icons/bs";
+import { GiSkills } from "react-icons/gi";
+import {MdOutlineWeb} from "react-icons/md";
+import {GrCertificate} from "react-icons/gr";
 
 function Navbar() {
   return (
@@ -14,8 +16,14 @@ function Navbar() {
       <a href="#about">
         <AiOutlineUser className="icon" />
       </a>
-      <a href="#members">
-        <TiGroupOutline className="icon" />
+      <a href="#certificates">
+        <GrCertificate className="icon" />
+      </a>
+      <a href="#skillsdescription">
+        <GiSkills className="icon" />
+      </a>
+      <a href="#projects">
+        <MdOutlineWeb className="icon" />
       </a>
       <a href="#contact">
         <BiMessageRoundedDots className="icon" />
@@ -23,6 +31,7 @@ function Navbar() {
       <a href="#footer">
         <BsArrowDownCircle className="icon" />
       </a>
+      
     </div>
   );
 }

@@ -8,7 +8,16 @@
   justify-content: center;
   align-items: center;
 }
-
+.home-container.download h1 {
+  font-size: 38px;
+  font-weight: bolder;
+  font-family: Poppins;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  color: var(--color-pri);
+  text-shadow: 3px 0px 17px rgba(6,227,233,0.79);
+}
 .home-container .logo {
   position: inherit;
   margin-top: -50px;
@@ -32,10 +41,6 @@
   z-index: 5;
   cursor: pointer;
 }
-
-/* .home-container .logo .hover-show.active {
-  animation: showspin 8s linear 1s infinite;
-} */
 
 @keyframes showspin {
   to {
@@ -114,7 +119,7 @@
   transform: translateX(-139%) translateY(172%);
   background-size: cover;
   background-position: center;
-  
+
 }
 
 .home-container img {
@@ -141,15 +146,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 60%;
+  max-width: 100%;
   margin-top: 50px;
   padding: 10px;
 }
 
 .home-container h2 span {
-  font-size: 25px;
+  font-size: 38px;
   opacity: 0.8;
   padding: 5px;
+  color: var(--color-pri);
+  text-transform: uppercase;
+  text-shadow: 3px 0px 17px rgba(6, 227, 233, 0.79);
   border-bottom: 2px solid var(--color-pri);
   font-family: Poppins;
 }
@@ -203,7 +211,17 @@
     align-items: center;
     overflow: hidden;
   }
-
+  .home-container .download h1 {
+    font-size: 38px;
+    font-weight: bolder;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    color: var(--color-pri);
+    text-shadow: 3px 0px 17px rgba(6,227,233,0.79);
+  }
+  
   .home-container .logo {
     position: inherit;
     height: 220px;
@@ -262,17 +280,20 @@
   }
 
   .home-container h2 span {
-    font-size: 25px;
+    font-size: 38px;
     opacity: 0.8;
     padding-bottom: 5px;
     border-bottom: 2px solid var(--color-pri);
-    font-family: "Open Sans Condensed", sans-serif;
+    color: var(--color-pri);
+    text-transform: uppercase;
+    text-shadow: 3px 0px 17px rgba(6, 227, 233, 0.79);
+    font-family: Poppins;
   }
 
   .home-container h2 p {
     font-size: 25px;
     font-weight: 100;
-    font-family: "Open Sans", sans-serif;
+    font-family: Poppins;
   }
 }
 
@@ -288,7 +309,17 @@
     align-items: center;
     overflow: hidden;
   }
-
+  .home-container .download h1 {
+    font-size: 38px;
+    font-weight: bolder;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    color: var(--color-pri);
+    text-shadow: 3px 0px 17px rgba(6,227,233,0.79);
+  }
+  
   .home-container .logo {
     position: inherit;
     height: 220px;
@@ -347,17 +378,20 @@
   }
 
   .home-container h2 span {
-    font-size: 22px;
+    font-size: 38px;
     opacity: 0.8;
     padding-bottom: 5px;
     border-bottom: 2px solid var(--color-pri);
-    font-family: "Open Sans Condensed", sans-serif;
+    color: var(--color-pri);
+    text-transform: uppercase;
+    text-shadow: 3px 0px 17px rgba(6, 227, 233, 0.79);
+    font-family: Poppins;
   }
 
   .home-container h2 p {
     font-size: 18px;
     font-weight: 100;
-    font-family: "Open Sans", sans-serif;
+    font-family: Poppins;
   }
 
   .scroll-down {
@@ -385,7 +419,17 @@
     align-items: center;
     overflow: hidden;
   }
-
+  .home-container .download h1 {
+    font-size: 38px;
+    font-weight: bolder;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    color: var(--color-pri);
+    text-shadow: 3px 0px 17px rgba(6,227,233,0.79);
+  }
+  
   .home-container .logo {
     position: inherit;
     height: 180px;
@@ -444,16 +488,19 @@
   }
 
   .home-container h2 span {
-    font-size: 22px;
+    font-size: 38px;
     opacity: 0.8;
     padding-bottom: 5px;
     border-bottom: 2px solid var(--color-pri);
-    font-family: "Open Sans Condensed", sans-serif;
+    font-family: Poppins;
+    text-transform: uppercase;
+    color: var(--color-pri);
+    text-shadow: 3px 0px 17px rgba(6, 227, 233, 0.79);
   }
 
   .home-container h2 p {
     font-size: 18px;
     font-weight: 100;
-    font-family: "Open Sans", sans-serif;
+    font-family: Poppins;
   }
 }

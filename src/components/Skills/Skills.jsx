@@ -13,6 +13,18 @@ const Skills = () => {
       <span className="skill-text">My Skills</span>
       <div className="skills-container">
         <div className="skill">
+          <div >
+            <img className="content react" src={react} alt='' width="150px" height="150px" />
+          </div>
+          <h1>REACT</h1>
+        </div>
+        <div className="skill">
+          <div>
+            <img className="content uxui" src={uxui} alt='' width="150px" height="150px" />
+          </div>
+          <h1>UX/UI</h1>
+        </div>
+        <div className="skill">
           <div>
             <img className="content html" src={html} alt='' width="150px" height="150px" />
           </div>
@@ -29,18 +41,6 @@ const Skills = () => {
             <img className="content javascript" src={js} alt='' width="150px" height="150px" />
           </div>
           <h1>JAVASCRIPT</h1>
-        </div>
-        <div className="skill">
-          <div >
-            <img className="content react" src={react} alt='' width="150px" height="150px" />
-          </div>
-          <h1>REACT</h1>
-        </div>
-        <div className="skill">
-          <div>
-            <img className="content uxui" src={uxui} alt='' width="150px" height="150px" />
-          </div>
-          <h1>UX/UI</h1>
         </div>
         <div className="skill">
           <div>
