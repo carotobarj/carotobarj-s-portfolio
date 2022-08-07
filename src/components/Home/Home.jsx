@@ -4,6 +4,7 @@ import './Home.css';
 import Buttons from '../button/button';
 import { BsMouse } from 'react-icons/bs';
 import About from '../About/About';
+import Certificates from '../Certificates/Certificates';
 
 function Home() {
   return (
@@ -28,10 +29,10 @@ function Home() {
         <BsMouse className='scroll' />
         <hr />
       </a>
-
-      <About/>
+      <About />
       <h1 className='download'>DOWNLOAD CV</h1>
       <Buttons />
+      <Certificates />
     </div>
   )
 }
