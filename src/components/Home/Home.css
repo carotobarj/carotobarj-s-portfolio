@@ -8,14 +8,13 @@
   justify-content: center;
   align-items: center;
 }
-.home-container.download h1 {
+.home-container .download h1 {
   font-size: 38px;
   font-weight: bolder;
   font-family: Poppins;
   display: flex;
   flex-direction: column;
   align-content: center;
-  color: var(--color-pri);
   text-shadow: 3px 0px 17px rgba(6,227,233,0.79);
 }
 .home-container .logo {
@@ -155,7 +154,6 @@
   font-size: 38px;
   opacity: 0.8;
   padding: 5px;
-  color: var(--color-pri);
   text-transform: uppercase;
   text-shadow: 3px 0px 17px rgba(6, 227, 233, 0.79);
   border-bottom: 2px solid var(--color-pri);
@@ -218,7 +216,6 @@
     display: flex;
     flex-direction: column;
     align-content: center;
-    color: var(--color-pri);
     text-shadow: 3px 0px 17px rgba(6,227,233,0.79);
   }
   
@@ -284,7 +281,6 @@
     opacity: 0.8;
     padding-bottom: 5px;
     border-bottom: 2px solid var(--color-pri);
-    color: var(--color-pri);
     text-transform: uppercase;
     text-shadow: 3px 0px 17px rgba(6, 227, 233, 0.79);
     font-family: Poppins;
@@ -316,7 +312,6 @@
     display: flex;
     flex-direction: column;
     align-content: center;
-    color: var(--color-pri);
     text-shadow: 3px 0px 17px rgba(6,227,233,0.79);
   }
   
@@ -382,7 +377,6 @@
     opacity: 0.8;
     padding-bottom: 5px;
     border-bottom: 2px solid var(--color-pri);
-    color: var(--color-pri);
     text-transform: uppercase;
     text-shadow: 3px 0px 17px rgba(6, 227, 233, 0.79);
     font-family: Poppins;
@@ -426,7 +420,6 @@
     display: flex;
     flex-direction: column;
     align-content: center;
-    color: var(--color-pri);
     text-shadow: 3px 0px 17px rgba(6,227,233,0.79);
   }
   
@@ -494,7 +487,6 @@
     border-bottom: 2px solid var(--color-pri);
     font-family: Poppins;
     text-transform: uppercase;
-    color: var(--color-pri);
     text-shadow: 3px 0px 17px rgba(6, 227, 233, 0.79);
   }
 

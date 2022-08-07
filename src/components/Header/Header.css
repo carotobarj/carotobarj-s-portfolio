@@ -28,14 +28,12 @@
   letter-spacing: 2px;
   font-family: Poppins;
   font-weight: bolder;
-  color: var(--color-pri);
   text-shadow: 3px 0px 17px rgba(6,227,233,0.79);
 }
 
 .header-container h2 {
   font-size: 25px;
   font-weight: 100;
-  color: var(--color-pri);
   font-weight: 900;
   font-family: Poppins;
   letter-spacing: 1px;

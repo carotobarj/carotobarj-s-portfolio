@@ -7,15 +7,13 @@ const Projects = () => {
       <div className="projects projects-1">
         <div className="projects-img"></div>
         <div className="projects-info">
-          <h1 className="name">Chrys</h1>
-          <h3 className="position">Leader</h3>
+          <h1 className="name">Api-Foods</h1>
+          <h3 className="position">Single Page Application</h3>
           <h4 className="about">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            maiores harum laborum vero recusandae? Cumque nam facere aspernatur
-            autem eius!
+          Was developed for my Individual Project on the Henry Fullstack Developer bootcamp. The data is extracted from the Spoonacular API.
           </h4>
-          <a href="#contact" className="contact-projects">
-            <span>contact</span>
+          <a href="https://github.com/carotobarj/Api-Foods" target={"blank"} className="contact-projects">
+            <span>See More...</span>
           </a>
         </div>
       </div>
@@ -23,15 +21,13 @@ const Projects = () => {
       <div className="projects projects-2">
         <div className="projects-img"></div>
         <div className="projects-info">
-          <h1 className="name">CChrys</h1>
-          <h3 className="position">Another Leader</h3>
+          <h1 className="name">E-social</h1>
+          <h3 className="position">Web Page</h3>
           <h4 className="about">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            maiores harum laborum vero recusandae? Cumque nam facere aspernatur
-            autem eius!
+          webpage created to build a community where the users can sell and buy used and unique books on the platform exchange.
           </h4>
-          <a href="#contact" className="contact-projects">
-            <span>contact</span>
+          <a href="https://e-social-book.netlify.app/" target={"blank"} className="contact-projects">
+            <span>See More...</span>
           </a>
         </div>
       </div>
@@ -39,13 +35,11 @@ const Projects = () => {
       <div className="projects projects-3">
         <div className="projects-img"></div>
         <div className="projects-info">
-          <h1 className="name">CCChrys</h1>
-          <h3 className="position">Another Leader Again</h3>
+          <h1 className="name">Comming Soon...</h1>
+          <h3 className="position"></h3>
           <h4 className="about">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            maiores harum laborum vero recusandae? Cumque nam facere aspernatur
-            autem eius!
-          </h4>
+         Comming soon new projects!
+                   </h4>
           <a href="#contact" className="contact-projects">
             <span>contact</span>
           </a>
