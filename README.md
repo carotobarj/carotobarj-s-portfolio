@@ -11,7 +11,20 @@ Portafolio personal creado con las siguientes tecnologías:
 ** CARACTERISTICAS DEL PROYECTO
 
 - Diseño totalmente responsive multidispositivo
-- Componentes Home, Barra de Navegación, Skills, Acerca de mi, Certificados, Acceso a perfiles de LinkedIn, GitHub, Descarga y consulta de CV en inglés y español, Proyectos Deployados, Botones de Contacto.
+- Modo Oscuro y Modo Claro
+
+** COMPONENTES DEL PROYECTO:
+
+     Home
+     Barra de Navegación
+     Skills 
+     Acerca de mi
+     Certificados 
+     Acceso a perfiles de LinkedIn, GitHub 
+     Descarga y consulta de CV en inglés y español
+     Proyectos Deployados
+     Botones de Contacto
+
 
 ** LINK DEL PROYECTO DEPLOYADO
 
