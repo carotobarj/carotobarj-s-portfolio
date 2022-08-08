@@ -1,6 +1,5 @@
 import Header from "./components/Header/Header";
 import Home from "./components/home/home";
-import Certificates from "./components/Certificates/Certificates";
 import SkillsDescription from "./components/Skills/SkillsDescription/SkillsDescription";
 import Contact from "./components/contact/contact";
 import Navbar from "./components/nav/nav";
@@ -15,7 +14,6 @@ function WebContent() {
       <Header />
       <Navbar />
       <Home />
-      <Certificates />
       <SkillsDescription />
       <Projects />
       <Contact />

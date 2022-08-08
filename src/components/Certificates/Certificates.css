@@ -1,14 +1,4 @@
-.certificates-txt {
-    font-size: 38px;
-    top: 10px;
-    font-weight: 100;
-    font-family: Poppins;
-    margin: 0px 15rem;
-    text-transform: uppercase;
-    text-shadow: 3px 0px 17px rgba(6,227,233,0.79);
-  }
-  
-  .certificates-container {
+.certificates-container {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -34,7 +24,7 @@
     height: 300px;
     width: 300px;
     border-radius: 40px;
-    background: rgb(5, 7, 37) url(../../assets/images/PI.jpg);
+    background: rgb(5, 7, 37) url(../../assets/images/certificadoHenry.png);
     background-size: cover;
     background-position: center;
     border: 2px solid var(--color-sec-light);
@@ -61,20 +51,12 @@
     font-weight: 100;
     font-size: 17px;
   }
-  .certificates-container .certificates-1 .certificates-info .contact-certificates {
-    background-color: var(--color-pri-light);
-    padding: 17px 35px;
-    font-size: 18px;
-    margin-top: 1px;
-    border-radius: 50px;
-    position: absolute;
-    transition: 0.1s ease;
-  }
+  
   .certificates-container .certificates-2 .certificates-img {
     height: 300px;
     width: 300px;
     border-radius: 40px;
-    background: rgb(5, 7, 37) url(../../assets/images/PF.jpg);
+    background: rgb(5, 7, 37) url(../../assets/images/EF.png);
     background-size: cover;
     background-position: center;
     border: 2px solid var(--color-sec-light);
@@ -195,7 +177,7 @@
       height: 100px;
       width: 100px;
       border-radius: 50%;
-      background: rgb(5, 7, 37) url(../../assets/images/PI.jpg);
+      background: rgb(5, 7, 37) url(../../assets/images/certificadoHenry.png);
       background-size: cover;
       background-position: center;
       border: 2px solid var(--color-sec-light);
@@ -227,22 +209,11 @@
       font-weight: 100;
       font-size: 28px;
     }
-    .certificates-container .certificates-1 .certificates-info a.contact-certificates {
-      background-color: var(--color-pri-light);
-      background-color: var(--color-pri-light);
-      padding: 10px 11px;
-      font-size: 25px;
-      border-radius: 50px;
-      transition: 0.1s ease;
-      position: absolute;
-      top: 7px;
-      right: -6px;
-    }
     .certificates-container .certificates-2 .certificates-img {
       height: 100px;
       width: 100px;
       border-radius: 50%;
-      background: rgb(5, 7, 37) url(../../assets/images/PF.jpg);
+      background: rgb(5, 7, 37) url(../../assets/images/EF.png);
       background-size: cover;
       background-position: center;
       border: 2px solid var(--color-sec-light);
@@ -319,16 +290,6 @@
       margin-top: 10px;
       font-weight: 100;
       font-size: 28px;
-    }
-    .certificates-container .certificates-3 .certificates-info a.contact-certificates {
-      background-color: var(--color-pri-light);
-      padding: 15px 25px;
-      font-size: 20px;
-      border-radius: 50px;
-      transition: 0.1s ease;
-      position: absolute;
-      top: -8px;
-      right: -97px;
     }
   }
   
@@ -369,7 +330,7 @@
       height: 70px;
       width: 70px;
       border-radius: 50%;
-      background: rgb(5, 7, 37) url(../../assets/images/PI.jpg);
+      background: rgb(5, 7, 37) url(../../assets/images/certificadoHenry.png);
       background-size: cover;
       background-position: center;
       border: 2px solid var(--color-sec-light);
@@ -401,21 +362,12 @@
       font-weight: 100;
       font-size: 16px;
     }
-    .certificates-container .certificates-1 .certificates-info a.contact-certificates {
-      background-color: var(--color-pri-light);
-      padding: 12px 14px;
-      font-size: 22px;
-      border-radius: 50px;
-      transition: 0.1s ease;
-      position: absolute;
-      top: -6px;
-      right: 6px;
-    }
+
     .certificates-container .certificates-2 .certificates-img {
       height: 70px;
       width: 70px;
       border-radius: 50%;
-      background: rgb(5, 7, 37) url(../../assets/images/PF.jpg);
+      background: rgb(5, 7, 37) url(../../assets/images/EF.png);
       background-size: cover;
       background-position: center;
       border: 2px solid var(--color-sec-light);
@@ -492,16 +444,6 @@
       margin-top: 10px;
       font-weight: 100;
       font-size: 16px;
-    }
-    .certificates-container .certificates-3 .certificates-info a.contact-certificates {
-      background-color: var(--color-pri-light);
-      padding: 10px 11px;
-      font-size: 11px;
-      border-radius: 50px;
-      transition: 0.1s ease;
-      position: absolute;
-      top: -4px;
-      right: -22px;
     }
   }
   
@@ -542,7 +484,7 @@
       height: 70px;
       width: 70px;
       border-radius: 50%;
-      background: rgb(5, 7, 37) url(../../assets/images/PI.jpg);
+      background: rgb(5, 7, 37) url(../../assets/images/certificadoHenry.png);
       background-size: cover;
       background-position: center;
       border: 2px solid var(--color-sec-light);
@@ -574,21 +516,12 @@
       font-weight: 100;
       font-size: 16px;
     }
-    .certificates-container .certificates-1 .certificates-info a.contact-certificates {
-      background-color: var(--color-pri-light);
-      padding: 8px 7px;
-      font-size: 11px;
-      border-radius: 50px;
-      transition: 0.1s ease;
-      position: absolute;
-      top: -6px;
-      right: 10px;
-    }
+    
     .certificates-container .certificates-2 .certificates-img {
       height: 70px;
       width: 70px;
       border-radius: 50%;
-      background: rgb(5, 7, 37) url(../../assets/images/PF.jpg);
+      background: rgb(5, 7, 37) url(../../assets/images/EF.png);
       background-size: cover;
       background-position: center;
       border: 2px solid var(--color-sec-light);
@@ -665,16 +598,6 @@
       margin-top: 10px;
       font-weight: 100;
       font-size: 16px;
-    }
-    .certificates-container .certificates-3 .certificates-info a.contact-certificates {
-      background-color: var(--color-pri-light);
-      padding: 6px 6px;
-      font-size: 11px;
-      border-radius: 50px;
-      transition: 0.1s ease;
-      position: absolute;
-      top: 62px;
-      right: 14px;
     }
   }
   
@@ -716,7 +639,7 @@
       height: 70px;
       width: 70px;
       border-radius: 50%;
-      background: rgb(5, 7, 37) url(../../assets/images/PI.jpg);
+      background: rgb(5, 7, 37) url(../../assets/images/certificadoHenry.png);
       background-size: cover;
       background-position: center;
       border: 2px solid var(--color-sec-light);
@@ -748,21 +671,11 @@
       font-weight: 100;
       font-size: 18px;
     }
-    .certificates-container .certificates-1 .certificates-info a.contact-certificates {
-      background-color: var(--color-pri-light);
-      padding: 8px 8px;
-      font-size: 12px;
-      border-radius: 50px;
-      transition: 0.1s ease;
-      position: absolute;
-      top: -7px;
-      right: 5px;
-    }
     .certificates-container .certificates-2 .certificates-img {
       height: 70px;
       width: 70px;
       border-radius: 50%;
-      background: rgb(5, 7, 37) url(../../assets/images/PF.jpg);
+      background: rgb(5, 7, 37) url(../../assets/images/EF.png);
       background-size: cover;
       background-position: center;
       border: 2px solid var(--color-sec-light);
@@ -839,16 +752,6 @@
       margin-top: 10px;
       font-weight: 100;
       font-size: 18px;
-    }
-    .certificates-container .certificates-3 .certificates-info a.contact-certificates {
-      background-color: var(--color-pri-light);
-      padding: 5px 6px;
-      font-size: 12px;
-      border-radius: 50px;
-      transition: 0.1s ease;
-      position: absolute;
-      top: 70px;
-      right: 5px;
     }
   }
   
@@ -891,7 +794,7 @@
       height: 70px;
       width: 70px;
       border-radius: 50%;
-      background: rgb(5, 7, 37) url(../../assets/images/PI.jpg);
+      background: rgb(5, 7, 37) url(../../assets/images/certificadoHenry.png);
       background-size: cover;
       background-position: center;
       border: 2px solid var(--color-sec-light);
@@ -923,21 +826,12 @@
       font-weight: 100;
       font-size: 16px;
     }
-    .certificates-container .certificates-1 .certificates-info a.contact-certificates {
-      background-color: var(--color-pri-light);
-      padding: 8px 13px;
-      font-size: 12px;
-      border-radius: 50px;
-      transition: 0.1s ease;
-      position: absolute;
-      top: 9px;
-      right: -1px;
-    }
+    
     .certificates-container .certificates-2 .certificates-img {
       height: 70px;
       width: 70px;
       border-radius: 50%;
-      background: rgb(5, 7, 37) url(../../assets/images/PF.jpg);
+      background: rgb(5, 7, 37) url(../../assets/images/EF.png);
       background-size: cover;
       background-position: center;
       border: 2px solid var(--color-sec-light);
@@ -1014,16 +908,6 @@
       margin-top: 10px;
       font-weight: 100;
       font-size: 16px;
-    }
-    .certificates-container .certificates-3 .certificates-info a.contact-certificates {
-      background-color: var(--color-pri-light);
-      padding: 6px 10px;
-      font-size: 12px;
-      border-radius: 50px;
-      transition: 0.1s ease;
-      position: absolute;
-      top: 62px;
-      right: 8px;
     }
   }
   

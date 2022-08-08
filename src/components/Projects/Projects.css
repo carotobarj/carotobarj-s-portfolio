@@ -404,7 +404,7 @@
   .projects-container .projects-1 .projects-info a.contact-projects {
     background-color: var(--color-pri-light);
     padding: 12px 14px;
-    font-size: 22px;
+    font-size: 12px;
     border-radius: 50px;
     transition: 0.1s ease;
     position: absolute;

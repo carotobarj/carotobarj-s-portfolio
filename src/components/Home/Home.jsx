@@ -30,8 +30,10 @@ function Home() {
         <hr />
       </a>
       <About />
-      <h1 className='download'>DOWNLOAD CV</h1>
+      <h1>DOWNLOAD CV</h1>
       <Buttons />
+      <br/>
+      <h1>CERTIFICATES</h1>
       <Certificates />
     </div>
   )

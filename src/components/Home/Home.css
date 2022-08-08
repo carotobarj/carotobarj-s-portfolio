@@ -8,9 +8,10 @@
   justify-content: center;
   align-items: center;
 }
-.home-container .download h1 {
+.home-container h1 {
   font-size: 38px;
   font-weight: bolder;
+  padding: 15px;
   font-family: Poppins;
   display: flex;
   flex-direction: column;
