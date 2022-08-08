@@ -1,7 +1,7 @@
 import React from 'react'
 import img from '../../assets/images/profile.png'
 import './Home.css';
-import Buttons from '../button/button';
+import Buttons from '../Button/Button';
 import { BsMouse } from 'react-icons/bs';
 import About from '../About/About';
 import Certificates from '../Certificates/Certificates';

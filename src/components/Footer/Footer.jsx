@@ -1,4 +1,4 @@
-import "./footer.css";
+import "./Footer.css";
 import { BsMouse } from "react-icons/bs";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { TiSocialGithub } from "react-icons/ti";
