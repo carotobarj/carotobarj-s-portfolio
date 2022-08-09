@@ -5,8 +5,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     min-height: 100vh;
-    margin-top: 100px;
-  }
+    }
   
   .certificates-container .certificates {
     position: relative;
@@ -15,8 +14,8 @@
     align-items: flex-start;
     width: 100%;
     margin-top: 15px;
-    margin-bottom: 50px;
-    background: rgba(0, 0, 0, 0.116);
+    margin-bottom: 15px;
+    background: rgba(0, 0, 0, 0.035);
     padding: 20px;
     border-radius: 50px;
   }
@@ -37,21 +36,25 @@
   }
   
   .certificates-container .certificates-1 .certificates-info .name {
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 35px;
+    font-weight: bold;
     letter-spacing: 2px;
-  }
-  .certificates-container .certificates-1 .certificates-info .position {
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 2px;
-  }
-  .certificates-container .certificates-1 .certificates-info .about {
-    margin-top: 8px;
-    font-weight: 100;
-    font-size: 17px;
   }
   
+  .certificates-container .certificates-1 .certificates-info .about {
+    margin-top: 8px;
+    font-size: 25px;
+  }
+
+  .certificates-container .certificates-1 .certificates-info .contact-certificates {
+    padding: 17px 35px;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 50px;
+    position: absolute;
+    transition: 0.1s ease;
+  }
+
   .certificates-container .certificates-2 .certificates-img {
     height: 300px;
     width: 300px;
@@ -68,25 +71,19 @@
   }
   
   .certificates-container .certificates-2 .certificates-info .name {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 500;
     letter-spacing: 2px;
   }
-  .certificates-container .certificates-2 .certificates-info .position {
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 2px;
-  }
+  
   .certificates-container .certificates-2 .certificates-info .about {
     margin-top: 8px;
-    font-weight: 100;
-    font-size: 17px;
+    font-size: 20px;
   }
   .certificates-container .certificates-2 .certificates-info .contact-certificates {
-    background-color: var(--color-pri-light);
     padding: 17px 35px;
     font-size: 18px;
-    margin-top: 1px;
+    margin-top: 15px;
     border-radius: 50px;
     position: absolute;
     transition: 0.1s ease;
@@ -123,7 +120,6 @@
     font-size: 17px;
   }
   .certificates-container .certificates-3 .certificates-info .contact-certificates {
-    background-color: var(--color-pri-light);
     padding: 17px 35px;
     font-size: 18px;
     margin-top: 1px;
@@ -156,7 +152,6 @@
       justify-content: flex-start;
       align-items: flex-start;
       min-height: 100vh;
-      margin-top: 50px;
       width: 90%;
     }
   
@@ -165,10 +160,10 @@
       display: flex;
       justify-content: flex-start;
       align-items: flex-start;
-      width: 100%;
+      width: 125%;
+      height: fit-content;
       margin-top: 15px;
-      margin-bottom: 35px;
-      background: rgba(0, 0, 0, 0.116);
+      background: rgba(0, 0, 0, 0.035);
       padding: 18px;
       border-radius: 50px;
       backdrop-filter: blur(20px);
@@ -187,7 +182,7 @@
       position: relative;
       margin-left: 10px;
       font-family: Poppins;
-      max-width: 80%;
+      max-width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -195,19 +190,22 @@
     }
   
     .certificates-container .certificates-1 .certificates-info .name {
-      font-size: 30px;
-      font-weight: 500;
-      letter-spacing: 2px;
-    }
-    .certificates-container .certificates-1 .certificates-info .position {
       font-size: 25px;
-      font-weight: 200;
-      letter-spacing: 2px;
+      font-weight: bold;
+      letter-spacing: 1px;
     }
+    
     .certificates-container .certificates-1 .certificates-info .about {
-      margin-top: 10px;
-      font-weight: 100;
-      font-size: 28px;
+      margin-top: -1px;
+      font-size: 20px;
+    }
+    .certificates-container .certificates-1 .certificates-info .contact-certificates {
+      padding: 3px 9px;
+      font-size: 18px;
+      margin-top: 120px;
+      border-radius: 50px;
+      position: absolute;
+      transition: 0.1s ease;
     }
     .certificates-container .certificates-2 .certificates-img {
       height: 100px;
@@ -223,7 +221,7 @@
       position: relative;
       margin-left: 10px;
       font-family: Poppins;
-      max-width: 80%;
+      max-width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -231,33 +229,26 @@
     }
   
     .certificates-container .certificates-2 .certificates-info .name {
-      font-size: 30px;
-      font-weight: 500;
-      letter-spacing: 2px;
-    }
-    .certificates-container .certificates-2 .certificates-info .position {
       font-size: 25px;
-      font-weight: 200;
-      letter-spacing: 2px;
+      font-weight: bold;
+      letter-spacing: 1px;
     }
+    
     .certificates-container .certificates-2 .certificates-info .about {
-      margin-top: 10px;
-      font-weight: 100;
-      font-size: 28px;
+      margin-top: -1px;
+      font-size: 20px;
     }
     .certificates-container .certificates-2 .certificates-info a.contact-certificates {
-      background-color: var(--color-pri-light);
-      padding: 15px 25px;
-      font-size: 25px;
+      padding: 3px 9px;
+      font-size: 18px;
+      margin-top: 120px;
       border-radius: 50px;
-      transition: 0.1s ease;
       position: absolute;
-      top: 10px;
-      right: 10px;
+      transition: 0.1s ease;
     }
     .certificates-container .certificates-3 .certificates-img {
-      height: 100px;
-      width: 100px;
+      height: 110px;
+      width: 160px;
       border-radius: 50%;
       background: rgb(5, 7, 37) url(../../assets/images/comming.jpg);
       background-size: cover;
@@ -269,7 +260,7 @@
       position: relative;
       margin-left: 10px;
       font-family: Poppins;
-      max-width: 80%;
+      max-width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -277,19 +268,14 @@
     }
   
     .certificates-container .certificates-3 .certificates-info .name {
-      font-size: 30px;
-      font-weight: 500;
-      letter-spacing: 2px;
-    }
-    .certificates-container .certificates-3 .certificates-info .position {
       font-size: 25px;
-      font-weight: 200;
-      letter-spacing: 2px;
+      font-weight: bold;
+      letter-spacing: 1px;
     }
+    
     .certificates-container .certificates-3 .certificates-info .about {
-      margin-top: 10px;
-      font-weight: 100;
-      font-size: 28px;
+      margin-top: -1px;
+      font-size: 20px;
     }
   }
   
@@ -299,7 +285,7 @@
       top: 10px;
       font-weight: 100;
       font-family: Poppins;
-      margin: 0px 5rem;
+      margin: 0px 1rem;
       text-transform: uppercase;
       text-shadow: 3px 0px 17px rgba(6,227,233,0.79);
     }
@@ -309,25 +295,21 @@
       flex-direction: column;
       justify-content: flex-start;
       align-items: flex-start;
-      min-height: 100vh;
-      margin-top: 100px;
-    }
+      }
   
     .certificates-container .certificates {
       position: relative;
       display: flex;
       justify-content: flex-start;
       align-items: flex-start;
-      width: 100%;
-      margin-top: 15px;
-      margin-bottom: 25px;
+      width: 120%;
       background: rgba(0, 0, 0, 0.116);
-      padding: 15px;
+      padding: 20px;
       border-radius: 50px;
       backdrop-filter: blur(20px);
     }
     .certificates-container .certificates-1 .certificates-img {
-      height: 70px;
+      height: 80px;
       width: 70px;
       border-radius: 50%;
       background: rgb(5, 7, 37) url(../../assets/images/certificadoHenry.png);
@@ -340,7 +322,7 @@
       position: relative;
       margin-left: 10px;
       font-family: Poppins;
-      max-width: 80%;
+      max-width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -348,23 +330,25 @@
     }
   
     .certificates-container .certificates-1 .certificates-info .name {
-      font-size: 18px;
-      font-weight: 500;
-      letter-spacing: 2px;
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 1px;
     }
-    .certificates-container .certificates-1 .certificates-info .position {
-      font-size: 12px;
-      font-weight: 200;
-      letter-spacing: 2px;
-    }
+    
     .certificates-container .certificates-1 .certificates-info .about {
-      margin-top: 10px;
-      font-weight: 100;
-      font-size: 16px;
+      margin-top: -1px;
+      font-size: 19px;
     }
-
+    .certificates-container .certificates-1 .certificates-info a.contact-certificates {
+      padding: 2px 9px;
+      font-size: 15px;
+      margin-top: 93px;
+      border-radius: 50px;
+      position: absolute;
+      transition: 0.1s ease;
+    }
     .certificates-container .certificates-2 .certificates-img {
-      height: 70px;
+      height: 80px;
       width: 70px;
       border-radius: 50%;
       background: rgb(5, 7, 37) url(../../assets/images/EF.png);
@@ -377,7 +361,7 @@
       position: relative;
       margin-left: 10px;
       font-family: Poppins;
-      max-width: 80%;
+      max-width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -385,33 +369,26 @@
     }
   
     .certificates-container .certificates-2 .certificates-info .name {
-      font-size: 18px;
-      font-weight: 500;
-      letter-spacing: 2px;
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 1px;
     }
-    .certificates-container .certificates-2 .certificates-info .position {
-      font-size: 12px;
-      font-weight: 200;
-      letter-spacing: 2px;
-    }
+    
     .certificates-container .certificates-2 .certificates-info .about {
-      margin-top: 10px;
-      font-weight: 100;
-      font-size: 16px;
+      margin-top: -1px;
+      font-size: 17px;
     }
     .certificates-container .certificates-2 .certificates-info a.contact-certificates {
-      background-color: var(--color-pri-light);
-      padding: 10px 11px;
-      font-size: 11px;
+      padding: 1px 9px;
+      font-size: 15px;
+      margin-top: 83px;
       border-radius: 50px;
-      transition: 0.1s ease;
       position: absolute;
-      top: -6px;
-      right: 6px;
+      transition: 0.1s ease;
     }
     .certificates-container .certificates-3 .certificates-img {
-      height: 70px;
-      width: 70px;
+      height: 80px;
+      width: 90px;
       border-radius: 50%;
       background: rgb(5, 7, 37) url(../../assets/images/comming.jpg);
       background-size: cover;
@@ -423,7 +400,7 @@
       position: relative;
       margin-left: 10px;
       font-family: Poppins;
-      max-width: 80%;
+      max-width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -431,19 +408,14 @@
     }
   
     .certificates-container .certificates-3 .certificates-info .name {
-      font-size: 18px;
-      font-weight: 500;
-      letter-spacing: 2px;
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 1px;
     }
-    .certificates-container .certificates-3 .certificates-info .position {
-      font-size: 12px;
-      font-weight: 200;
-      letter-spacing: 2px;
-    }
+    
     .certificates-container .certificates-3 .certificates-info .about {
-      margin-top: 10px;
-      font-weight: 100;
-      font-size: 16px;
+      margin-top: -1px;
+      font-size: 17px;
     }
   }
   
@@ -464,24 +436,21 @@
       justify-content: flex-start;
       align-items: flex-start;
       min-height: 100vh;
-      margin-top: 10px;
-    }
+      }
   
     .certificates-container .certificates {
       position: relative;
       display: flex;
       justify-content: flex-start;
       align-items: flex-start;
-      width: 100%;
-      margin-top: 15px;
-      margin-bottom: 25px;
+      width: 120%;
       background: rgba(0, 0, 0, 0.116);
-      padding: 15px;
+      padding: 32px;
       border-radius: 50px;
       backdrop-filter: blur(20px);
     }
     .certificates-container .certificates-1 .certificates-img {
-      height: 70px;
+      height: 80px;
       width: 70px;
       border-radius: 50%;
       background: rgb(5, 7, 37) url(../../assets/images/certificadoHenry.png);
@@ -494,7 +463,7 @@
       position: relative;
       margin-left: 10px;
       font-family: Poppins;
-      max-width: 80%;
+      max-width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -503,23 +472,25 @@
   
     .certificates-container .certificates-1 .certificates-info .name {
       font-size: 18px;
-      font-weight: 500;
-      letter-spacing: 2px;
-    }
-    .certificates-container .certificates-1 .certificates-info .position {
-      font-size: 12px;
-      font-weight: 200;
-      letter-spacing: 2px;
-    }
-    .certificates-container .certificates-1 .certificates-info .about {
-      margin-top: 10px;
-      font-weight: 100;
-      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 1px;
     }
     
+    .certificates-container .certificates-1 .certificates-info .about {
+      margin-top: -1px;
+      font-size: 15px;
+    }
+    .certificates-container .certificates-1 .certificates-info a.contact-certificates {
+      padding: 1px 9px;
+      font-size: 13px;
+      margin-top: 105px;
+      border-radius: 50px;
+      position: absolute;
+      transition: 0.1s ease;
+    }
     .certificates-container .certificates-2 .certificates-img {
       height: 70px;
-      width: 70px;
+      width: 80px;
       border-radius: 50%;
       background: rgb(5, 7, 37) url(../../assets/images/EF.png);
       background-size: cover;
@@ -531,7 +502,7 @@
       position: relative;
       margin-left: 10px;
       font-family: Poppins;
-      max-width: 80%;
+      max-width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -540,32 +511,25 @@
   
     .certificates-container .certificates-2 .certificates-info .name {
       font-size: 18px;
-      font-weight: 500;
-      letter-spacing: 2px;
+      font-weight: bold;
+      letter-spacing: 1px;
     }
-    .certificates-container .certificates-2 .certificates-info .position {
-      font-size: 12px;
-      font-weight: 200;
-      letter-spacing: 2px;
-    }
+    
     .certificates-container .certificates-2 .certificates-info .about {
-      margin-top: 10px;
-      font-weight: 100;
-      font-size: 16px;
+      margin-top: -1px;
+      font-size: 15px;
     }
     .certificates-container .certificates-2 .certificates-info a.contact-certificates {
-      background-color: var(--color-pri-light);
-      padding: 8px 7px;
-      font-size: 11px;
+      padding: 1px 9px;
+      font-size: 13px;
+      margin-top: 102px;
       border-radius: 50px;
-      transition: 0.1s ease;
       position: absolute;
-      top: -6px;
-      right: 10px;
+      transition: 0.1s ease;
     }
     .certificates-container .certificates-3 .certificates-img {
-      height: 70px;
-      width: 70px;
+      height: 80px;
+      width: 120px;
       border-radius: 50%;
       background: rgb(5, 7, 37) url(../../assets/images/comming.jpg);
       background-size: cover;
@@ -575,9 +539,9 @@
   
     .certificates-container .certificates-3 .certificates-info {
       position: relative;
-      margin-left: 10px;
+      margin-left: 8px;
       font-family: Poppins;
-      max-width: 80%;
+      max-width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -586,24 +550,19 @@
   
     .certificates-container .certificates-3 .certificates-info .name {
       font-size: 18px;
-      font-weight: 500;
-      letter-spacing: 2px;
+      font-weight: bold;
+      letter-spacing: 1px;
     }
-    .certificates-container .certificates-3 .certificates-info .position {
-      font-size: 12px;
-      font-weight: 200;
-      letter-spacing: 2px;
-    }
+    
     .certificates-container .certificates-3 .certificates-info .about {
-      margin-top: 10px;
-      font-weight: 100;
-      font-size: 16px;
+      margin-top: -1px;
+      font-size: 15px;
     }
   }
   
   @media (max-width: 400px) {
     .certificates-txt {
-      font-size: 38px;
+      font-size: 35px;
       top: 10px;
       font-weight: 100;
       font-family: Poppins;
@@ -618,9 +577,7 @@
       justify-content: flex-start;
       align-items: flex-start;
       min-height: 100vh;
-      margin-top: 10px;
-      padding: 10px;
-    }
+        }
   
     .certificates-container .certificates {
       position: relative;
@@ -628,10 +585,9 @@
       justify-content: flex-start;
       align-items: flex-start;
       width: 100%;
-      margin-top: 15px;
       margin-bottom: 25px;
       background: rgba(0, 0, 0, 0.116);
-      padding: 15px;
+      padding: 28px;
       border-radius: 50px;
       backdrop-filter: blur(20px);
     }
@@ -647,9 +603,9 @@
   
     .certificates-container .certificates-1 .certificates-info {
       position: relative;
-      margin-left: 10px;
+      margin-left: 6px;
       font-family: Poppins;
-      max-width: 70%;
+      max-width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -657,19 +613,22 @@
     }
   
     .certificates-container .certificates-1 .certificates-info .name {
-      font-size: 19px;
-      font-weight: 500;
-      letter-spacing: 2px;
-    }
-    .certificates-container .certificates-1 .certificates-info .position {
-      font-size: 14px;
-      font-weight: 200;
-      letter-spacing: 2px;
-    }
-    .certificates-container .certificates-1 .certificates-info .about {
-      margin-top: 10px;
-      font-weight: 100;
       font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    
+    .certificates-container .certificates-1 .certificates-info .about {
+      margin-top: -1px;
+      font-size: 15px;
+    }
+    .certificates-container .certificates-1 .certificates-info a.contact-certificates {
+      padding: 1px 9px;
+      font-size: 13px;
+      margin-top: 95px;
+      border-radius: 50px;
+      position: absolute;
+      transition: 0.1s ease;
     }
     .certificates-container .certificates-2 .certificates-img {
       height: 70px;
@@ -693,29 +652,22 @@
     }
   
     .certificates-container .certificates-2 .certificates-info .name {
-      font-size: 19px;
-      font-weight: 500;
-      letter-spacing: 2px;
-    }
-    .certificates-container .certificates-2 .certificates-info .position {
-      font-size: 14px;
-      font-weight: 200;
-      letter-spacing: 2px;
-    }
-    .certificates-container .certificates-2 .certificates-info .about {
-      margin-top: 10px;
-      font-weight: 100;
       font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    
+    .certificates-container .certificates-2 .certificates-info .about {
+      margin-top: -1px;
+      font-size: 15px;
     }
     .certificates-container .certificates-2 .certificates-info a.contact-certificates {
-      background-color: var(--color-pri-light);
-      padding: 8px 8px;
-      font-size: 12px;
+      padding: 1px 9px;
+      font-size: 13px;
+      margin-top: 95px;
       border-radius: 50px;
-      transition: 0.1s ease;
       position: absolute;
-      top: -7px;
-      right: 5px;
+      transition: 0.1s ease;
     }
     .certificates-container .certificates-3 .certificates-img {
       height: 70px;
@@ -739,25 +691,20 @@
     }
   
     .certificates-container .certificates-3 .certificates-info .name {
-      font-size: 19px;
-      font-weight: 500;
-      letter-spacing: 2px;
-    }
-    .certificates-container .certificates-3 .certificates-info .position {
-      font-size: 14px;
-      font-weight: 200;
-      letter-spacing: 2px;
-    }
-    .certificates-container .certificates-3 .certificates-info .about {
-      margin-top: 10px;
-      font-weight: 100;
       font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    
+    .certificates-container .certificates-3 .certificates-info .about {
+      margin-top: -1px;
+      font-size: 15px;
     }
   }
   
   @media (max-width: 375px) {
     .certificates-txt {
-      font-size: 38px;
+      font-size: 35px;
       top: 10px;
       font-weight: 100;
       font-family: Poppins;
@@ -773,8 +720,6 @@
       justify-content: flex-start;
       align-items: flex-start;
       min-height: 100vh;
-      margin-top: 10px;
-      padding: 10px;
     }
   
     .certificates-container .certificates {
@@ -786,13 +731,13 @@
       margin-top: 15px;
       margin-bottom: 20px;
       background: rgba(0, 0, 0, 0.116);
-      padding: 15px;
+      padding: 30px;
       border-radius: 50px;
       backdrop-filter: blur(20px);
     }
     .certificates-container .certificates-1 .certificates-img {
-      height: 70px;
-      width: 70px;
+      height: 80px;
+      width: 100px;
       border-radius: 50%;
       background: rgb(5, 7, 37) url(../../assets/images/certificadoHenry.png);
       background-size: cover;
@@ -802,9 +747,9 @@
   
     .certificates-container .certificates-1 .certificates-info {
       position: relative;
-      margin-left: 10px;
+      margin-left: 7px;
       font-family: Poppins;
-      max-width: 70%;
+      max-width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -812,21 +757,24 @@
     }
   
     .certificates-container .certificates-1 .certificates-info .name {
-      font-size: 19px;
-      font-weight: 500;
-      letter-spacing: 2px;
-    }
-    .certificates-container .certificates-1 .certificates-info .position {
-      font-size: 14px;
-      font-weight: 200;
-      letter-spacing: 2px;
-    }
-    .certificates-container .certificates-1 .certificates-info .about {
-      margin-top: 10px;
-      font-weight: 100;
-      font-size: 16px;
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 1px;
     }
     
+    .certificates-container .certificates-1 .certificates-info .about {
+      margin-top: -1px;
+      font-size: 15px;
+    }
+    .certificates-container .certificates-1 .certificates-info a.contact-certificates {
+      padding: 1px 9px;
+      font-size: 13px;
+      margin-top: 120px;
+      border-radius: 50px;
+      position: absolute;
+      transition: 0.1s ease;
+    }
+
     .certificates-container .certificates-2 .certificates-img {
       height: 70px;
       width: 70px;
@@ -841,7 +789,7 @@
       position: relative;
       margin-left: 10px;
       font-family: Poppins;
-      max-width: 70%;
+      max-width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -849,29 +797,22 @@
     }
   
     .certificates-container .certificates-2 .certificates-info .name {
-      font-size: 19px;
-      font-weight: 500;
-      letter-spacing: 2px;
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 1px;
     }
-    .certificates-container .certificates-2 .certificates-info .position {
-      font-size: 14px;
-      font-weight: 200;
-      letter-spacing: 2px;
-    }
+    
     .certificates-container .certificates-2 .certificates-info .about {
-      margin-top: 10px;
-      font-weight: 100;
-      font-size: 16px;
+      margin-top: -1px;
+      font-size: 15px;
     }
     .certificates-container .certificates-2 .certificates-info a.contact-certificates {
-      background-color: var(--color-pri-light);
-      padding: 8px 13px;
-      font-size: 12px;
+      padding: 1px 9px;
+      font-size: 13px;
+      margin-top: 120px;
       border-radius: 50px;
-      transition: 0.1s ease;
       position: absolute;
-      top: 9px;
-      right: -1px;
+      transition: 0.1s ease;
     }
     .certificates-container .certificates-3 .certificates-img {
       height: 70px;
@@ -887,7 +828,7 @@
       position: relative;
       margin-left: 10px;
       font-family: Poppins;
-      max-width: 70%;
+      max-width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -895,19 +836,14 @@
     }
   
     .certificates-container .certificates-3 .certificates-info .name {
-      font-size: 19px;
-      font-weight: 500;
-      letter-spacing: 2px;
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 1px;
     }
-    .certificates-container .certificates-3 .certificates-info .position {
-      font-size: 14px;
-      font-weight: 200;
-      letter-spacing: 2px;
-    }
+    
     .certificates-container .certificates-3 .certificates-info .about {
-      margin-top: 10px;
-      font-weight: 100;
-      font-size: 16px;
+      margin-top: -1px;
+      font-size: 15px;
     }
   }
   

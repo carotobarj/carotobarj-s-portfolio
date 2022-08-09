@@ -26,7 +26,7 @@
   width: 100%;
   margin-top: 15px;
   margin-bottom: 50px;
-  background: rgba(0, 0, 0, 0.116);
+  background: rgba(0, 0, 0, 0.035);
   padding: 20px;
   border-radius: 50px;
 }
@@ -62,7 +62,6 @@
   font-size: 17px;
 }
 .projects-container .projects-1 .projects-info .contact-projects {
-  background-color: var(--color-pri-light);
   padding: 17px 35px;
   font-size: 18px;
   margin-top: 1px;
@@ -101,10 +100,9 @@
   font-size: 17px;
 }
 .projects-container .projects-2 .projects-info .contact-projects {
-  background-color: var(--color-pri-light);
   padding: 17px 35px;
   font-size: 18px;
-  margin-top: 1px;
+  margin-top: 5px;
   border-radius: 50px;
   position: absolute;
   transition: 0.1s ease;
@@ -141,10 +139,9 @@
   font-size: 17px;
 }
 .projects-container .projects-3 .projects-info .contact-projects {
-  background-color: var(--color-pri-light);
   padding: 17px 35px;
   font-size: 18px;
-  margin-top: 1px;
+  margin-top: 5px;
   border-radius: 50px;
   position: absolute;
   transition: 0.1s ease;
@@ -175,7 +172,7 @@
     align-items: flex-start;
     min-height: 100vh;
     margin-top: 50px;
-    width: 90%;
+    width: 95%;
   }
 
   .projects-container .projects {
@@ -193,7 +190,7 @@
   }
   .projects-container .projects-1 .projects-img {
     height: 100px;
-    width: 100px;
+    width: 140px;
     border-radius: 50%;
     background: rgb(5, 7, 37) url(../../assets/images/PI.jpg);
     background-size: cover;
@@ -205,7 +202,7 @@
     position: relative;
     margin-left: 10px;
     font-family: Poppins;
-    max-width: 80%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -213,25 +210,22 @@
   }
 
   .projects-container .projects-1 .projects-info .name {
-    font-size: 30px;
-    font-weight: 500;
-    letter-spacing: 2px;
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 1px;
   }
   .projects-container .projects-1 .projects-info .position {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 200;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
   .projects-container .projects-1 .projects-info .about {
-    margin-top: 10px;
-    font-weight: 100;
-    font-size: 28px;
+    margin-top: -1px;
+      font-size: 18px;
   }
   .projects-container .projects-1 .projects-info a.contact-projects {
-    background-color: var(--color-pri-light);
-    background-color: var(--color-pri-light);
     padding: 10px 11px;
-    font-size: 25px;
+    font-size: 15px;
     border-radius: 50px;
     transition: 0.1s ease;
     position: absolute;
@@ -260,24 +254,22 @@
   }
 
   .projects-container .projects-2 .projects-info .name {
-    font-size: 30px;
-    font-weight: 500;
-    letter-spacing: 2px;
+    font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 1px;
   }
   .projects-container .projects-2 .projects-info .position {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 200;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
   .projects-container .projects-2 .projects-info .about {
-    margin-top: 10px;
-    font-weight: 100;
-    font-size: 28px;
+    margin-top: -1px;
+      font-size: 18px;
   }
   .projects-container .projects-2 .projects-info a.contact-projects {
-    background-color: var(--color-pri-light);
-    padding: 15px 25px;
-    font-size: 25px;
+    padding: 10px 0px;
+    font-size: 16px;
     border-radius: 50px;
     transition: 0.1s ease;
     position: absolute;
@@ -298,7 +290,7 @@
     position: relative;
     margin-left: 10px;
     font-family: Poppins;
-    max-width: 80%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -306,29 +298,28 @@
   }
 
   .projects-container .projects-3 .projects-info .name {
-    font-size: 30px;
-    font-weight: 500;
-    letter-spacing: 2px;
+    font-size: 25px;
+      font-weight: bold;
+      letter-spacing: 1px;
   }
   .projects-container .projects-3 .projects-info .position {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 200;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
   .projects-container .projects-3 .projects-info .about {
-    margin-top: 10px;
-    font-weight: 100;
-    font-size: 28px;
+    margin-top: -1px;
+      font-size: 18px;
   }
   .projects-container .projects-3 .projects-info a.contact-projects {
-    background-color: var(--color-pri-light);
-    padding: 15px 25px;
-    font-size: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
     border-radius: 50px;
     transition: 0.1s ease;
+    margin: -2px -315px;
     position: absolute;
-    top: -8px;
-    right: -97px;
+    top: 10px;
+    right: 10px;
   }
 }
 
@@ -338,7 +329,7 @@
     top: 10px;
     font-weight: 100;
     font-family: Poppins;
-    margin: 0px 5rem;
+    margin: 0px 8rem;
     text-transform: uppercase;
     text-shadow: 3px 0px 17px rgba(6,227,233,0.79);
   }
@@ -379,7 +370,7 @@
     position: relative;
     margin-left: 10px;
     font-family: Poppins;
-    max-width: 80%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;

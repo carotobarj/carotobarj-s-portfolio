@@ -14,7 +14,7 @@ function Navbar() {
         <AiOutlineHome className="icon active-nav" />
       </a>
       <a href="#about">
-        <AiOutlineUser className="icon" />
+        <AiOutlineUser className="icon " />
       </a>
       <a href="#certificates">
         <GrCertificate className="icon" />

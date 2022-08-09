@@ -51,9 +51,8 @@
 .home-container .logo .circle {
   position: absolute;
   height: 100px;
-  width: 100px;
+  width: 90px;
   border-radius: 50%;
-  background-color: rgb(4, 4, 44);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,13 +118,12 @@
   transform: translateX(-139%) translateY(172%);
   background-size: cover;
   background-position: center;
-
 }
 
 .home-container img {
   position: absolute;
   height: 250px;
-  width: 250px;
+  width: 200px;
   border-radius: 50%;
   border: 3px solid rgb(108, 161, 197);
   transform: translate(-200px);
@@ -202,8 +200,8 @@
   .home-container {
     position: relative;
     min-height: 100vh;
-    padding: 150px 40px;
-    margin-top: 20px;
+    padding: 182px 35px;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;

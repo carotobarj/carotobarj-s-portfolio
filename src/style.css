@@ -12,7 +12,7 @@
 }
  
 body {
-  background: aliceblue;
+  background: whitesmoke;
   min-height: 100vh;
   font-family: "Inter", sans-serif;
   animation: move 1s linear infinite forwards;
@@ -82,7 +82,7 @@ body::after {
   color: var(--text-pri);
   padding: 10px 40px;
   margin: 5px auto;
-  padding: 10px 40px;
+  padding: 10px 40px 0px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -124,6 +124,7 @@ body::after {
 
 body.modo-oscuro {
 	background-color: black;
+  transition: smooth;
 }
 body.modo-oscuro::before {
   content: "";
