@@ -144,9 +144,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 100%;
+  max-width: 60%;
   margin-top: 50px;
-  padding: 10px;
 }
 
 .home-container h2 span {

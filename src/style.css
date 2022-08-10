@@ -82,7 +82,7 @@ body::after {
   color: var(--text-pri);
   padding: 10px 40px;
   margin: 5px auto;
-  padding: 10px 40px 0px 0px;
+  padding: 10px 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,7 +91,7 @@ body::after {
 #switch-modo-oscuro{
   position: fixed;
  bottom: 40rem;
- right: 0.5rem;
+ right: 0.3rem;
 }
 
 .boton-switch {
@@ -124,7 +124,6 @@ body::after {
 
 body.modo-oscuro {
 	background-color: black;
-  transition: smooth;
 }
 body.modo-oscuro::before {
   content: "";
