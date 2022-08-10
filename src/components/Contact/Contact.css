@@ -15,7 +15,6 @@
   font-family: Poppins;
   text-transform: uppercase;
   font-weight: 400;
-  color: var(--color-pri);
   text-shadow: 3px 0px 17px rgba(6,227,233,0.79);
 }
 
@@ -91,7 +90,6 @@
     font-family: Poppins;
     font-weight: 400;
     text-transform: uppercase;
-    color: var(--color-pri);
   text-shadow: 3px 0px 17px rgba(6,227,233,0.79);
   }
 
@@ -165,7 +163,6 @@
     font-family: Poppins;
     font-weight: 400;
     text-transform: uppercase;
-    color: var(--color-pri);
   text-shadow: 3px 0px 17px rgba(6,227,233,0.79);
   }
 
@@ -239,7 +236,6 @@
     font-family: Poppins;
     font-weight: 400;
     text-transform: uppercase;
-    color: var(--color-pri);
   text-shadow: 3px 0px 17px rgba(6,227,233,0.79);
   }
 
@@ -313,7 +309,6 @@
     font-family: Poppins;
     font-weight: 400;
     text-transform: uppercase;
-    color: var(--color-pri);
   text-shadow: 3px 0px 17px rgba(6,227,233,0.79);
   }
 
