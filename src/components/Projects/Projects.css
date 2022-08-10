@@ -138,17 +138,6 @@
   font-weight: 100;
   font-size: 17px;
 }
-.projects-container .projects-3 .projects-info .contact-projects {
-  padding: 17px 35px;
-  font-size: 18px;
-  margin-top: 5px;
-  border-radius: 50px;
-  position: absolute;
-  transition: 0.1s ease;
-}
-.projects-container .projects .projects-info .contact-projects span {
-  text-transform: capitalize;
-}
 .projects-container .projects .projects-info .contact-projects:hover {
   background-color: transparent;
   border: 2px solid var(--color-sec-light);
@@ -311,16 +300,6 @@
     margin-top: -1px;
       font-size: 18px;
   }
-  .projects-container .projects-3 .projects-info a.contact-projects {
-    padding: 10px 15px;
-    font-size: 16px;
-    border-radius: 50px;
-    transition: 0.1s ease;
-    margin: -2px -315px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
 }
 
 @media (max-width: 500px) {
@@ -482,16 +461,7 @@
     font-weight: 100;
     font-size: 16px;
   }
-  .projects-container .projects-3 .projects-info a.contact-projects {
-    padding: 10px 11px;
-    font-size: 11px;
-    border-radius: 50px;
-    transition: 0.1s ease;
-    position: absolute;
-    top: -4px;
-    right: 286px;
   }
-}
 
 @media (max-width: 420px) {
   .projects-txt {
@@ -651,15 +621,6 @@
     margin-top: 10px;
     font-weight: 100;
     font-size: 16px;
-  }
-  .projects-container .projects-3 .projects-info a.contact-projects {
-    padding: 6px 6px;
-    font-size: 11px;
-    border-radius: 50px;
-    transition: 0.1s ease;
-    position: absolute;
-    top: 62px;
-    right: 14px;
   }
 }
 
@@ -823,15 +784,7 @@
     font-weight: 100;
     font-size: 18px;
   }
-  .projects-container .projects-3 .projects-info a.contact-projects {
-    padding: 5px 6px;
-    font-size: 12px;
-    border-radius: 50px;
-    transition: 0.1s ease;
-    position: absolute;
-    top: 70px;
-    right: 5px;
-  }
+
 }
 
 @media (max-width: 375px) {
@@ -994,14 +947,5 @@
     margin-top: 10px;
     font-weight: 100;
     font-size: 16px;
-  }
-  .projects-container .projects-3 .projects-info a.contact-projects {
-    padding: 6px 10px;
-    font-size: 12px;
-    border-radius: 50px;
-    transition: 0.1s ease;
-    position: absolute;
-    top: 62px;
-    right: 8px;
   }
 }
