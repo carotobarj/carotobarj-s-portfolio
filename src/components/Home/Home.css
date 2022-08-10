@@ -16,7 +16,6 @@
   display: flex;
   flex-direction: column;
   align-content: center;
-  text-shadow: 3px 0px 17px rgba(6,227,233,0.79);
 }
 .home-container .logo {
   position: inherit;
@@ -153,7 +152,6 @@
   opacity: 0.8;
   padding: 5px;
   text-transform: uppercase;
-  text-shadow: 3px 0px 17px rgba(6, 227, 233, 0.79);
   border-bottom: 2px solid var(--color-pri);
   font-family: Poppins;
 }
@@ -214,7 +212,6 @@
     display: flex;
     flex-direction: column;
     align-content: center;
-    text-shadow: 3px 0px 17px rgba(6,227,233,0.79);
   }
   
   .home-container .logo {
@@ -280,7 +277,6 @@
     padding-bottom: 5px;
     border-bottom: 2px solid var(--color-pri);
     text-transform: uppercase;
-    text-shadow: 3px 0px 17px rgba(6, 227, 233, 0.79);
     font-family: Poppins;
   }
 
@@ -310,7 +306,6 @@
     display: flex;
     flex-direction: column;
     align-content: center;
-    text-shadow: 3px 0px 17px rgba(6,227,233,0.79);
   }
   
   .home-container .logo {
@@ -376,7 +371,6 @@
     padding-bottom: 5px;
     border-bottom: 2px solid var(--color-pri);
     text-transform: uppercase;
-    text-shadow: 3px 0px 17px rgba(6, 227, 233, 0.79);
     font-family: Poppins;
   }
 
@@ -418,7 +412,6 @@
     display: flex;
     flex-direction: column;
     align-content: center;
-    text-shadow: 3px 0px 17px rgba(6,227,233,0.79);
   }
   
   .home-container .logo {
@@ -485,7 +478,6 @@
     border-bottom: 2px solid var(--color-pri);
     font-family: Poppins;
     text-transform: uppercase;
-    text-shadow: 3px 0px 17px rgba(6, 227, 233, 0.79);
   }
 
   .home-container h2 p {

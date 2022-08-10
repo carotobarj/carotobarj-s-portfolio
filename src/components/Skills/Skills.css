@@ -7,7 +7,6 @@
   font-family: Poppins;
   top: 10px;
   font-weight: bolder;
-  text-shadow: 3px 0px 17px rgba(6, 227, 233, 0.79);
 }
 
 .skills-container {
@@ -36,7 +35,6 @@
   text-transform: uppercase;
   margin-top: 20px;
   border-radius: 50px;
-  text-shadow: 3px 0px 17px rgba(6, 227, 233, 0.79);
 }
 
 .skills-container .skill .content.html {
@@ -98,7 +96,6 @@
     font-family: Poppins;
     top: 10px;
     text-align: center;
-    text-shadow: 3px 0px 17px rgba(6, 227, 233, 0.79);
   }
 
   .skills-container {
@@ -136,7 +133,6 @@
     text-transform: uppercase;
     margin-top: 20px;
     font-weight: 200;
-    text-shadow: 3px 0px 17px rgba(6, 227, 233, 0.79);
   }
   .skills-container .skill .content.html {
     background-position: center;
@@ -198,7 +194,6 @@
     margin: 0px 5rem;
     font-family: Poppins;
     text-align: center;
-    text-shadow: 3px 0px 17px rgba(6, 227, 233, 0.79);
   }
 
   .skills-container {
@@ -236,7 +231,6 @@
     text-transform: uppercase;
     margin-top: 20px;
     font-weight: 200;
-    text-shadow: 3px 0px 17px rgba(6, 227, 233, 0.79);
   }
   .skills-container .skill .content.html {
     background-position: center;
@@ -298,8 +292,6 @@
     font-family: Poppins;
     top: 10px;
     text-align: center;
-    text-shadow: 3px 0px 17px rgba(6, 227, 233, 0.79);
-
   }
 
   .skills-container {
@@ -337,7 +329,6 @@
     text-transform: uppercase;
     margin-top: 20px;
     font-weight: 200;
-    text-shadow: 3px 0px 17px rgba(6, 227, 233, 0.79);
   }
   .skills-container .skill .content.html {
     background-position: center;
@@ -400,7 +391,6 @@
     top: -14px;
     position: absolute;
     left: -6px;
-    text-shadow: 3px 0px 17px rgba(6, 227, 233, 0.79);
 }
 
   .skills-container {
@@ -437,7 +427,6 @@
     text-transform: uppercase;
     margin-top: 20px;
     font-weight: 200;
-    text-shadow: 3px 0px 17px rgba(6, 227, 233, 0.79);
   }
   .skills-container .skill .content.html {
     background-position: center;
@@ -500,8 +489,6 @@
     top: -9px;
     position: absolute;
     left: -11px;
-    text-shadow: 3px 0px 17px rgb(6 227 233 / 79%);
-
   }
 
   .skills-container {
@@ -538,9 +525,7 @@
     margin-top: 20px;
     font-weight: 200;
     font-family: Poppins;
-    text-shadow: 3px 0px 17px rgba(6, 227, 233, 0.79);
-
-  }
+ }
   .skills-container .skill .content.html {
     background-position: center;
     border-radius: 50%;

@@ -28,7 +28,6 @@
   letter-spacing: 2px;
   font-family: Poppins;
   font-weight: bolder;
-  text-shadow: 3px 0px 17px rgba(6,227,233,0.79);
 }
 
 .header-container h2 {
@@ -38,5 +37,4 @@
   font-family: Poppins;
   letter-spacing: 1px;
   font-weight: bolder;
-  text-shadow: 3px 0px 17px rgba(6,227,233,0.79);
 }
