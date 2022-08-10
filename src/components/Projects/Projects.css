@@ -393,7 +393,6 @@
     font-size: 16px;
   }
   .projects-container .projects-1 .projects-info a.contact-projects {
-    background-color: var(--color-pri-light);
     padding: 12px 14px;
     font-size: 12px;
     border-radius: 50px;
@@ -439,7 +438,6 @@
     font-size: 16px;
   }
   .projects-container .projects-2 .projects-info a.contact-projects {
-    background-color: var(--color-pri-light);
     padding: 10px 11px;
     font-size: 11px;
     border-radius: 50px;
@@ -485,14 +483,13 @@
     font-size: 16px;
   }
   .projects-container .projects-3 .projects-info a.contact-projects {
-    background-color: var(--color-pri-light);
     padding: 10px 11px;
     font-size: 11px;
     border-radius: 50px;
     transition: 0.1s ease;
     position: absolute;
     top: -4px;
-    right: -22px;
+    right: 286px;
   }
 }
 
@@ -566,8 +563,7 @@
     font-size: 16px;
   }
   .projects-container .projects-1 .projects-info a.contact-projects {
-    background-color: var(--color-pri-light);
-    padding: 8px 7px;
+    padding: 3px 7px;
     font-size: 11px;
     border-radius: 50px;
     transition: 0.1s ease;
@@ -612,7 +608,6 @@
     font-size: 16px;
   }
   .projects-container .projects-2 .projects-info a.contact-projects {
-    background-color: var(--color-pri-light);
     padding: 8px 7px;
     font-size: 11px;
     border-radius: 50px;
@@ -658,7 +653,6 @@
     font-size: 16px;
   }
   .projects-container .projects-3 .projects-info a.contact-projects {
-    background-color: var(--color-pri-light);
     padding: 6px 6px;
     font-size: 11px;
     border-radius: 50px;
@@ -740,8 +734,7 @@
     font-size: 18px;
   }
   .projects-container .projects-1 .projects-info a.contact-projects {
-    background-color: var(--color-pri-light);
-    padding: 8px 8px;
+    padding: 4px 8px;
     font-size: 12px;
     border-radius: 50px;
     transition: 0.1s ease;
@@ -786,8 +779,7 @@
     font-size: 18px;
   }
   .projects-container .projects-2 .projects-info a.contact-projects {
-    background-color: var(--color-pri-light);
-    padding: 8px 8px;
+    padding: 4px 8px;
     font-size: 12px;
     border-radius: 50px;
     transition: 0.1s ease;
@@ -832,7 +824,6 @@
     font-size: 18px;
   }
   .projects-container .projects-3 .projects-info a.contact-projects {
-    background-color: var(--color-pri-light);
     padding: 5px 6px;
     font-size: 12px;
     border-radius: 50px;
@@ -915,13 +906,12 @@
     font-size: 16px;
   }
   .projects-container .projects-1 .projects-info a.contact-projects {
-    background-color: var(--color-pri-light);
-    padding: 8px 13px;
-    font-size: 12px;
+    padding: 4px 13px;
+    font-size: 11px;
     border-radius: 50px;
     transition: 0.1s ease;
     position: absolute;
-    top: 9px;
+    top: -3px;
     right: -1px;
   }
   .projects-container .projects-2 .projects-img {
@@ -961,13 +951,12 @@
     font-size: 16px;
   }
   .projects-container .projects-2 .projects-info a.contact-projects {
-    background-color: var(--color-pri-light);
-    padding: 8px 13px;
+    padding: 6px 13px;
     font-size: 12px;
     border-radius: 50px;
     transition: 0.1s ease;
     position: absolute;
-    top: 9px;
+    top: 3px;
     right: -1px;
   }
   .projects-container .projects-3 .projects-img {
@@ -1007,7 +996,6 @@
     font-size: 16px;
   }
   .projects-container .projects-3 .projects-info a.contact-projects {
-    background-color: var(--color-pri-light);
     padding: 6px 10px;
     font-size: 12px;
     border-radius: 50px;
