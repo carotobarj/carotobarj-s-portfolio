@@ -32,6 +32,7 @@ function Navbar() {
         <BsArrowDownCircle className="icon" />
       </a>
       
+      
     </div>
   );
 }
