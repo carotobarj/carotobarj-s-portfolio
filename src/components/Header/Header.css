@@ -6,20 +6,10 @@
   align-items: center;
   text-align: center;
   margin-top: 5px;
-  transform: translateY(-100px);
-  opacity: 0;
-  backdrop-filter: blur(20px);
-  animation: fade-in 1s ease 1 forwards;
-}
-
-@keyframes fade-in {
-  0% {
-    transform: translateY(0);
-    opacity: 1;
   }
-}
 
-.header-container h3 {
+
+.header-container h1 {
   display: flex;
   flex-direction: column;
   font-size: 35px;
@@ -27,14 +17,5 @@
   font-weight: 900;
   letter-spacing: 2px;
   font-family: Poppins;
-  font-weight: bolder;
-}
-
-.header-container h2 {
-  font-size: 25px;
-  font-weight: 100;
-  font-weight: 900;
-  font-family: Poppins;
-  letter-spacing: 1px;
   font-weight: bolder;
 }

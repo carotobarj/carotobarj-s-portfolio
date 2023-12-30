@@ -1,8 +1,8 @@
 .home-container {
   position: relative;
   min-height: 100vh;
-  padding: 50px 40px;
-  margin-top: 7px;
+  padding: 5rem 4rem;
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,101 +29,11 @@
   user-select: none;
 }
 
-.home-container .logo .hover-show {
-  position: absolute;
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 5;
-  cursor: pointer;
-}
-
-@keyframes showspin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.home-container .logo .circle {
-  position: absolute;
-  height: 100px;
-  width: 90px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.2s ease;
-  opacity: 0;
-}
-
-.home-container .logo .hover-show.active .circle {
-  opacity: 1;
-}
-
-.home-container .logo .hover-show.active .circle:nth-child(1) {
-  background: url(../../assets/images/css.png);
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  transform: translateY(-210%);
-}
-
-.home-container .logo .hover-show.active .circle:nth-child(2) {
-  position: absolute;
-  transform: translateX(182%) translateY(-118%);
-  background: url(../../assets/images/html.png);
-  background-size: cover;
-  background-position: center;
-}
-
-.home-container .logo .hover-show.active .circle:nth-child(3) {
-  position: absolute;
-  transform: translateX(197%) translateY(74%);
-  background: url(../../assets/images/js.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-.home-container .logo .hover-show.active .circle:nth-child(4) {
-  position: absolute;
-  transform: translateX(57%) translateY(182%);
-  background: url(../../assets/images/react.png);
-  background-size: cover;
-  background-position: center;
-}
-
-.home-container .logo .hover-show.active .circle:nth-child(5) {
-  position: absolute;
-  transform: translateX(-199%) translateY(19%);
-  background: url(../../assets/images/uxui.png);
-  background-size: cover;
-  background-position: center;
-}
-
-.home-container .logo .hover-show.active .circle:nth-child(6) {
-  position: absolute;
-  transform: translateX(-163%) translateY(-147%);
-  background: url(../../assets/images/redux.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-.home-container .logo .hover-show.active .circle:nth-child(7) {
-  background: url(../../assets/images/scrum.jpg);
-  position: absolute;
-  transform: translateX(-139%) translateY(172%);
-  background-size: cover;
-  background-position: center;
-}
 
 .home-container img {
   position: absolute;
   height: 250px;
-  width: 250px;
-  border-radius: 50%;
+  width: 650px;
   border: 3px solid rgb(108, 161, 197);
   transform: translate(-200px);
   opacity: 0;
