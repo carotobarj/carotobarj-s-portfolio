@@ -1,4 +1,5 @@
 import React from 'react'
+import img from '../../assets/images/profile.jpg'
 import './Home.css';
 import Buttons from '../Button/Button';
 import { BsMouse } from 'react-icons/bs';
@@ -8,7 +9,19 @@ import Certificates from '../Certificates/Certificates';
 function Home() {
   return (
     <div id='home' className='container home-container'>
-      
+      <div className='logo'>
+        <div className='hover-show'>
+          <span className='circle'></span>
+          <span className='circle'></span>
+          <span className='circle'></span>
+          <span className='circle'></span>
+          <span className='circle'></span>
+          <span className='circle'></span>
+          <span className='circle'></span>
+        </div>
+
+        <img className='img' src={img} alt='' />
+      </div>
 
       <a href='#footer' className='scroll-down'>
         <hr />
